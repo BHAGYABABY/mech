@@ -72,4 +72,16 @@
       </plugins>
     </pluginManagement>
   </build>
+  <distributionManagement>
+<repository>
+<id>releases</id>
+<name>releases</name>
+<url>http://54.162.149.151:8081/repository/Maven-wipro-release/</url>
+</repository>
+<snapshotRepository>
+<id>snapshots</id>
+<name>snapshots</name>
+<url>http://54.162.149.151:8081/repository/Maven-wipro-snapshots/</url>
+</snapshotRepository>
+</distributionManagement>
 </project>
